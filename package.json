@@ -7,6 +7,8 @@
     "eslintplugin",
     "eslint-plugin"
   ],
+  "repository": "https://github.com/sgreve/eslint-plugin-alias-mui-icons-material-import",
+  "homepage": "https://github.com/sgreve/eslint-plugin-alias-mui-icons-material-import",
   "author": "Sven Greve",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
