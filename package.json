@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-alias-mui-icons-material-import",
+  "version": "0.1.0",
+  "description": "Enforce alias for @mui/icons-material imports",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Sven Greve",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-plugin-eslint-plugin": "^5.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^10.0.0"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "license": "MIT"
+}
